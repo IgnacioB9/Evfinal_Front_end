@@ -1,7 +1,6 @@
 import { Fragment, useRef, useState, useEffect } from "react";
 import uuid4 from "uuid4";
 
-import modEvent from "../App";
 
 const AgendaEvent = () => {
   const [todos, setTodos] = useState([]);
